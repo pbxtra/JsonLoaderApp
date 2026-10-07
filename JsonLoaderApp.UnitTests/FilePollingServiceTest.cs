@@ -60,7 +60,7 @@ namespace JsonLoaderApp.UnitTests
 
                 //Assert -----
 
-                // Set stubTime to advance 
+                //Set fakeTime to advance 
                 fakeTime.Advance(TimeSpan.FromSeconds(3));
 
                 //Wait for signal from service
@@ -73,7 +73,7 @@ namespace JsonLoaderApp.UnitTests
                 await WriteTestDataAsync(path, CreateData("sensor-2", 61.7m));
                 File.SetLastWriteTimeUtc(path, DateTime.UtcNow.AddSeconds(3));
 
-                //Set stubTime to advance. Wait for file read 
+                //Set fakeTime to advance  Wait for file read 
                 fakeTime.Advance(TimeSpan.FromSeconds(3));
 
                 //Wait for signal from service
