@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="JsonLoaderApp.UnitTests/JsonLoaderApp.UnitTests.csproj" />
+  <Project Path="JsonLoaderApp/JsonLoaderApp.csproj" />
+</Solution>

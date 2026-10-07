@@ -1,0 +1,29 @@
+﻿{
+  "measurements": [
+    {
+      "id": "Basement-001",
+      "timestamp": "2026-10-05T08:00:00+02:00",
+      "humidity_percent": 64.2
+    },
+    {
+      "id": "Basement-002",
+      "timestamp": "2026-10-05T08:05:00+02:00",
+      "humidity_percent": 60.1
+    },
+    {
+      "id": "LvRoom-003",
+      "timestamp": "2026-10-05T08:10:00+02:00",
+      "humidity_percent": 40.8
+    },
+    {
+      "id": "Pantry-004",
+      "timestamp": "2026-10-05T08:15:00+02:00",
+      "humidity_percent": 35.0
+    },
+    {
+      "id": "Carport-005",
+      "timestamp": "2026-10-05T08:20:00+02:00",
+      "humidity_percent": 80.5
+    }
+  ]
+}
