@@ -108,8 +108,8 @@ namespace JsonLoaderApp.Services
                 }
             }
 
-            //this is just a simple error handelign implementation . Just so we have something.
-            //Would be handeld by a message service in production
+            //TODO: this is just a simple error handlign implementation . Just so we have something.
+            //Would be handled by a message service in production, I don't have time right now.
             catch (FileNotFoundException)
             {
                 //File missing , send message to user after a few loops
@@ -136,7 +136,8 @@ namespace JsonLoaderApp.Services
             }
             catch (Exception ex)
             {
-                UserMessage?.Invoke(this, "Well, this sould not happend: " + ex.Message);
+                //We should not end up here, but if we do, we will send a message to the user. 
+                UserMessage?.Invoke(this, "Well, this should not happen: " + ex.Message);
             }
         }
 
